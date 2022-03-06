@@ -9,7 +9,8 @@ for i in range(n):
  
 for i in range(m):
     x=input()
-    if x not in D:D[x]=0
+    if x not in D:
+        D[x]=0
 print(len(D))
 for x in sorted(D):
     print(x,D[x])
