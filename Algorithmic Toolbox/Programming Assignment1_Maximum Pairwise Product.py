@@ -11,7 +11,9 @@ def  fastway(l):
     l.remove(m1)
     m2=max(l)
     return m1*m2
-while True:
+l=list(map(int,(input().split())))
+print(fastway(l))
+'''while True:
     list0=[]
     length0=random.randint(2,50)
     for i in range(0,length0):
@@ -29,4 +31,4 @@ while True:
         print("slow {}".format(slow0))
         print("fast {}".format(fast0))
         break
-        
+        '''
