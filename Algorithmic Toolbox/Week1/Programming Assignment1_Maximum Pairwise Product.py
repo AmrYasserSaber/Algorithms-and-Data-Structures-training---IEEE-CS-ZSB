@@ -11,6 +11,7 @@ def  fastway(l):
     l.remove(m1)
     m2=max(l)
     return m1*m2
+m=input()
 l=list(map(int,(input().split())))
 print(fastway(l))
 '''while True:
