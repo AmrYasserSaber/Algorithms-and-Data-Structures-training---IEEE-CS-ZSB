@@ -1,4 +1,3 @@
-# Uses python3
 def fibonacci_partial_sum_naive(from_, to):
     _sum = 0
     current = 0
